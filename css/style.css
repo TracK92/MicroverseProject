@@ -1,0 +1,59 @@
+body {
+    background-color: aliceblue;
+}
+#welcome-section {
+    text-align: center;
+}
+#welcome-section h1 {
+    font-size: 3rem;
+    letter-spacing: 0.75rem;
+    color: rgb(168, 18, 168);
+}
+#welcome-section p {
+    font-size: 2rem;
+    color: rgb(219, 94, 115);
+}
+#projects {
+    display: flex;
+}
+.project-title {
+    border: 2px blue solid;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 3px 5px 3px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.project-title h2 {
+    color: purple;
+    
+}
+.project-title p {
+    font-style: italic;
+}
+.project-title a {
+    text-decoration: none;
+    color: chocolate;
+}
+.project-title a:hover {
+    color: blue;
+}
+.navs {
+    list-style-type: none;
+    display: flex;
+}
+.navs li {
+    margin: 30px;
+    
+}
+.navs li a {
+    text-decoration: none;
+
+}
+.myprojects {
+    color: chocolate;
+    font-size: 3rem;
+    letter-spacing: 1.2rem;
+    text-align: center;
+}
